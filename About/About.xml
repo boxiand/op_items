@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>??? personal MOD (Continued)</name>
-  <packageId>Mlie.PersonalMod</packageId>
-  <author>Mlie</author>
-  <url>https://github.com/emipa606/PersonalMod</url>
+  <name>op_items</name>
+  <packageId>wsw.opitems</packageId>
+  <author>wsw</author>
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
@@ -13,31 +12,10 @@
   <modDependencies />
   <loadAfter />
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
-Update of 斯坦石s mod
-https://steamcommunity.com/sharedfiles/filedetails/?id=1128356018
-
-Works okay except for errors when the turrets kills pawns or enemies cannot find a spot outside of turrets range.
-
-[img]https://i.imgur.com/pufA0kM.png[/img]
-
-[table]
-	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/PersonalMod][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-    [/tr]
-    [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
-    [/tr]
-[/table]
 	
 [img]https://i.imgur.com/Z4GOv8H.png[/img]
 
-Adapt to A18 version
-
-[h1]  English translation has now been added.	[/h1]
-
-My personal MOD
+OP ITEMS
 Super cheat building
 
 [h1] 介绍：	[/h1]
@@ -51,45 +29,5 @@ Super cheat building
 -A low-key inner lining that can make you invulnerable.And it will help you avoid the effects of natural temperature.
 -A melee weapon named "镜面杀戮".It's destructive.
 -[spoiler] Well, I just want to draw some interesting equipment for fun	[/spoiler]
-
------ [h1] Use carefully	[/h1] -----
-
-
-[h1] 这是一个纯娱乐的MOD！ Just for fun！	[/h1]
-[h1] 这是一个纯娱乐的MOD！ Just for fun！	[/h1]
-[h1] 这是一个纯娱乐的MOD！ Just for fun！	[/h1]
-
-
-[h1] Update: [/h1]
-
- -09 08 2017 : Fixed the damage bugs.  
-
- -09 09 2017 : Fixed the Apparel Tags.  
-
- -09 09 2017 : Fixed the Apparel Tags.  
-
- -09 12 2017 : Added a new melee weapon named “镜面杀戮” .
-                       Added a new fabrics. 
-
- -09 13 2017 : Added a new metal. 
-
- -09 13 2017 : 	[b] English translation has now been added	[/b]. 
-
- -10 17 2017:  Z_shield-generateAllowChance: 0.
-
- -11 24 2017: Adapt to A18 version.
-
-
-[img]https://i.imgur.com/PwoNOj4.png[/img]
-[list]
-[*] See if the the error persists if you just have this mod and its requirements active.
-[*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
-[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2035227791][img]https://img.shields.io/github/v/release/emipa606/PersonalMod?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
+</description>
 </ModMetaData>

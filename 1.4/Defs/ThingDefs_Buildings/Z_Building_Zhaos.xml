@@ -27,12 +27,12 @@
       <li>Stony</li>
     </stuffCategories>
     <statBases>
-      <WorkToBuild>1800</WorkToBuild>
+      <WorkToBuild>100</WorkToBuild>
       <MaxHitPoints>800000</MaxHitPoints>
       <Flammability>0</Flammability>
     </statBases>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <costStuffCount>1</costStuffCount>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -156,11 +156,11 @@
     <uiIconPath>Things/Building/Linked/ZCompWallIco</uiIconPath>
     <statBases>
       <MaxHitPoints>90000000</MaxHitPoints>
-      <WorkToBuild>300</WorkToBuild>
+      <WorkToBuild>100</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <costList>
-      <Steel>1</Steel>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <costStuffCount>1</costStuffCount>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -292,7 +292,7 @@
       <Mass>2</Mass>
     </statBases>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>

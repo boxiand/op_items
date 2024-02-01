@@ -35,8 +35,7 @@
     <building>
     </building>
     <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -99,7 +98,7 @@
     <building>
     </building>
     <costList>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
@@ -150,8 +149,7 @@
     <building>
     </building>
     <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <comps>
       <li Class="CompProperties_Power">

@@ -38,8 +38,7 @@
     <tickerType>Rare</tickerType>
     <description>一个改造过的加热器。可以自动开关以达到设定的目标温度。.</description>
     <costList>
-      <Steel>35</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <placeWorkers>
@@ -95,8 +94,7 @@
     <tickerType>Rare</tickerType>
     <description>一个经过精心改造的控温装置，可用干中央空调或者制造冷库，不可燃.</description>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <placeWorkers>

@@ -13,7 +13,7 @@
     <pathCost>10</pathCost>
     <selectable>true</selectable>
     <statBases>
-      <MaxHitPoints>3000</MaxHitPoints>
+      <MaxHitPoints>100</MaxHitPoints>
       <Flammability>0.0</Flammability>
       <DeteriorationRate>0</DeteriorationRate>
       <Beauty>10</Beauty>
@@ -65,6 +65,8 @@
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
         <li>TableMachining</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
@@ -77,7 +79,7 @@
   </ThingDef>
   <!--		Bases		-->
   <ThingDef Name="BaseMeleeWeapon_Zhaos" Abstract="True" ParentName="BaseWeapon">
-    <techLevel>Industrial</techLevel>
+    <techLevel>Ultra</techLevel>
     <weaponTags>
       <li>MeleeZhaos</li>
     </weaponTags>

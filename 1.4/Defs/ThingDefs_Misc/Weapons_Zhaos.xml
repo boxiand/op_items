@@ -68,7 +68,7 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>5</damageAmountBase>
       <speed>100</speed>
-      <explosionRadius>9</explosionRadius>
+      <explosionRadius>3</explosionRadius>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet_Zhaos">
@@ -86,7 +86,7 @@
   </ThingDef>
   <!-- ^^^^^^^Bullet -->
   <ThingDef ParentName="BaseMakeableGun_Zhaos">
-    <defName>Z_Rifle01A</defName>
+    <defName>Z_Rifle_javelin</defName>
     <label>Z_速射动能标枪</label>
     <description>Death.这把枪将会杀死你眼前的一切
 将会杀死眼前的一切
@@ -97,7 +97,7 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>48000</WorkToMake>
+      <WorkToMake>1000</WorkToMake>
       <Mass>1.6</Mass>
       <AccuracyTouch>1</AccuracyTouch>
       <AccuracyShort>1</AccuracyShort>
@@ -111,8 +111,7 @@
       <MarketValue>10</MarketValue>
     </statBases>
     <costList>
-      <Steel>15</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <verbs>
       <li>
@@ -136,7 +135,7 @@
     </equippedStatOffsets>
   </ThingDef>
   <ThingDef ParentName="BaseMakeableGun_Zhaos">
-    <defName>Z_Rifle02A</defName>
+    <defName>Z_Rifle_semiauto</defName>
     <label>Z_磁轨步枪</label>
     <description>略正义的小型磁轨炮。
 3连发，高精确，每发伤害45.</description>
@@ -162,8 +161,7 @@
       <!--价值-->
     </statBases>
     <costList>
-      <Steel>6</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <verbs>
       <li>
@@ -193,7 +191,7 @@
     </equippedStatOffsets>
   </ThingDef>
   <ThingDef ParentName="BaseMakeableGun_Zhaos">
-    <defName>Z_Rifle03A</defName>
+    <defName>Z_Rifle_mp</defName>
     <label>Z_电磁冲锋枪</label>
     <description>略正义的小型防身武器，电磁轨道冲锋枪。
 15连发，高精确，每发伤害3.</description>
@@ -219,7 +217,7 @@
       <!--价值-->
     </statBases>
     <costList>
-      <Steel>3</Steel>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <verbs>
       <li>
@@ -227,13 +225,13 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BulletZhaosC</defaultProjectile>
         <!--使用的子弹-->
-        <warmupTime>0.01</warmupTime>
+        <warmupTime>0.1</warmupTime>
         <!--预热时间，射击前瞄准时间-->
         <range>65</range>
         <!--射程-->
         <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
-        <burstShotCount>15</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <!--每次射击子弹数量-->
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <!--单位时间射速，用3600除以这个数得出射速-->
@@ -249,7 +247,7 @@
     </equippedStatOffsets>
   </ThingDef>
   <ThingDef ParentName="BaseMakeableGun_Zhaos">
-    <defName>Z_Rifle04A</defName>
+    <defName>Z_Rifle_shotgun</defName>
     <label>Z_冲击步枪</label>
     <description>正义的冲击步枪，效果类似于霰弹枪.</description>
     <graphicData>
@@ -268,8 +266,7 @@
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>10</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <verbs>
       <li>
@@ -291,7 +288,7 @@
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseMakeableGun_Zhaos">
-    <defName>Z_Rifle05A</defName>
+    <defName>Z_Rifle_arti</defName>
     <label>Z_蓄能炮</label>
     <description>正义的能量炮，发射出所蓄积的能量爆弹效果类似于火箭筒，可以无限次使用.</description>
     <graphicData>
@@ -310,8 +307,7 @@
       <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>15</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <verbs>
       <li>
@@ -333,7 +329,7 @@
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseMakeableGun_Zhaos">
-    <defName>Z_Rifle06A</defName>
+    <defName>Z_Rifle_gornade</defName>
     <label>Z_电荷步枪EXII</label>
     <description>电荷步枪增强型，并不是那么正义
 6连发，每发伤害10.</description>
@@ -359,7 +355,7 @@
       <!--价值-->
     </statBases>
     <costList>
-      <Steel>12</Steel>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <verbs>
       <li>
@@ -389,7 +385,7 @@
     </equippedStatOffsets>
   </ThingDef>
   <!-- vvvvvv Melee  ^^^^^^^Guns -->
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality_Z">
+  <!-- <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality_Z">
     <defName>Z_ButcherKnife</defName>
     <label>Z_镜面杀戮</label>
     <description>Butcher's knife
@@ -446,5 +442,5 @@ Tons of damage
         <cooldownTime>0.5</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>

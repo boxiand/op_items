@@ -12,14 +12,14 @@
     <tickerType>Normal</tickerType>
     <statBases>
       <Mass>1</Mass>
-      <EnergyShieldRechargeRate>2.35</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>990000</EnergyShieldEnergyMax>
-      <WorkToMake>65000</WorkToMake>
+      <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>20</EnergyShieldEnergyMax>
+      <WorkToMake>100</WorkToMake>
       <DeteriorationRate>0</DeteriorationRate>
-      <MaxHitPoints>8000</MaxHitPoints>
+      <MaxHitPoints>100</MaxHitPoints>
     </statBases>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
@@ -27,19 +27,18 @@
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
         <li>TableMachining</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
       </recipeUsers>
     </recipeMaker>
     <thingCategories>
-      <li>ApparelUtility</li>
+      <li>Apparel</li>
     </thingCategories>
     <apparel>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfWornByCorpse>false</careIfWornByCorpse>
-      <careIfDamaged>false</careIfDamaged>
-      <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Waist</li>
       </bodyPartGroups>
@@ -59,9 +58,5 @@
       </options>
     </colorGenerator>
     <generateAllowChance>0.00</generateAllowChance>
-    <allowedArchonexusCount>1</allowedArchonexusCount>
-    <tradeTags>
-      <li>Armor</li>
-    </tradeTags>
   </ThingDef>
 </Defs>

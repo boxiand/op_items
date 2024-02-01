@@ -1,8 +1,5 @@
 # Changelog for PersonalMod
 
-1.4.3 - Shield belts should now not count as clothes for nudists
-
-
 1.4.2 - Fixed the turrets
 
 

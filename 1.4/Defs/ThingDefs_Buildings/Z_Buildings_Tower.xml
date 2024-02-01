@@ -23,7 +23,7 @@
     <statBases>
       <MaxHitPoints>147483647</MaxHitPoints>
       <Flammability>0</Flammability>
-      <WorkToBuild>3000</WorkToBuild>
+      <WorkToBuild>1000</WorkToBuild>
       <Mass>20</Mass>
       <Beauty>50000</Beauty>
     </statBases>
@@ -49,7 +49,7 @@ level:SSS.</description>
     </stuffCategories>
     <costStuffCount>1</costStuffCount>
     <costList>
-      <Steel>5</Steel>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -69,7 +69,7 @@ level:SSS.</description>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>40</damageAmountBase>
+      <damageAmountBase>500</damageAmountBase>
       <speed>320</speed>
     </projectile>
   </ThingDef>
@@ -132,7 +132,7 @@ level:SSS.</description>
     <statBases>
       <MaxHitPoints>147483647</MaxHitPoints>
       <Flammability>0</Flammability>
-      <WorkToBuild>3000</WorkToBuild>
+      <WorkToBuild>1000</WorkToBuild>
       <Mass>20</Mass>
       <Beauty>50000</Beauty>
     </statBases>
@@ -159,7 +159,7 @@ level:A.</description>
     </stuffCategories>
     <costStuffCount>1</costStuffCount>
     <costList>
-      <Steel>5</Steel>
+      <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -180,7 +180,7 @@ level:A.</description>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>2</damageAmountBase>
+      <damageAmountBase>1</damageAmountBase>
       <speed>500</speed>
     </projectile>
   </ThingDef>
@@ -210,12 +210,12 @@ level:A.</description>
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Bullet_Z_TurretgunB</defaultProjectile>
         <warmupTime>0</warmupTime>
-        <range>1250</range>
+        <range>30</range>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
-        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <burstShotCount>20</burstShotCount>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
       </li>
     </verbs>
   </ThingDef>

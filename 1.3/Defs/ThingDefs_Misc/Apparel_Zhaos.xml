@@ -49,7 +49,7 @@
     </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase_Zhaos">
-    <defName>Apparel_Zhaos</defName>
+    <defName>Z_Apparel_Inner</defName>
     <label>Z_防护内衬.</label>
     <description>高强度抗性的内衬</description>
     <graphicData>
@@ -110,7 +110,7 @@
     </colorGenerator>
     <generateCommonality>0</generateCommonality>
   </ThingDef>
-  <ThingDef ParentName="ApparelMakeableBase_Zhaos">
+  <!-- <ThingDef ParentName="ApparelMakeableBase_Zhaos">
     <defName>Apparel_ZhaosDebuff</defName>
     <label>Z_防护枷锁</label>
     <description>Heavy chains 【-15 speed】 减速六格的抗性枷锁.</description>
@@ -171,5 +171,5 @@
       </options>
     </colorGenerator>
     <generateCommonality>0</generateCommonality>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>
