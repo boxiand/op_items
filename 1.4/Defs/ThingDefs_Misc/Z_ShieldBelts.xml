@@ -12,9 +12,9 @@
     <tickerType>Normal</tickerType>
     <statBases>
       <Mass>1</Mass>
-      <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>20</EnergyShieldEnergyMax>
-      <WorkToMake>100</WorkToMake>
+      <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>12</EnergyShieldEnergyMax>
+      <WorkToMake>1000</WorkToMake>
       <DeteriorationRate>0</DeteriorationRate>
       <MaxHitPoints>100</MaxHitPoints>
     </statBases>
@@ -57,6 +57,7 @@
         </li>
       </options>
     </colorGenerator>
+    <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
 </Defs>

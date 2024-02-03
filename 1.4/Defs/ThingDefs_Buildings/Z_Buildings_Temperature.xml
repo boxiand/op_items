@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_Heater</defName>
-    <label>Z_加热器ex</label>
+    <label>Z_Heater</label>
     <thingClass>Building_Heater</thingClass>
     <graphicData>
       <texPath>Things/Building/Wendu/Z_Heater</texPath>
@@ -63,10 +63,12 @@
     </comps>
     <designationCategory>Temperature</designationCategory>
     <designationHotKey>Misc2</designationHotKey>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>CoolerP</defName>
-    <label>Z_工业空调ex</label>
+    <defName>Z_CoolerP</defName>
+    <label>Z_CoolerP</label>
     <thingClass>Building_Cooler</thingClass>
     <graphicData>
       <texPath>Things/Building/Wendu/Z_Cooler</texPath>
@@ -117,5 +119,7 @@
     </comps>
     <designationCategory>Temperature</designationCategory>
     <designationHotKey>Misc3</designationHotKey>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
 </Defs>

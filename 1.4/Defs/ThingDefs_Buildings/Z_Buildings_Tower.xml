@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_TowerSSS</defName>
-    <label>Z_暴风_蜂巢式磁轨炮台</label>
+    <label>Z_TowerSSS</label>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>Things/Building/Turret/Base_Base1</texPath>
@@ -59,6 +59,8 @@ level:SSS.</description>
       <turretGunDef>Z_TowerBase1A</turretGunDef>
       <turretBurstCooldownTime>0</turretBurstCooldownTime>
     </building>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Z_TurretgunA</defName>
@@ -107,11 +109,13 @@ level:SSS.</description>
         <burstShotCount>20</burstShotCount>
       </li>
     </verbs>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <!--===============================================================================================================================================================================-->
   <ThingDef ParentName="BuildingBase">
     <defName>Z_TowerA</defName>
-    <label>Z_微风_小型蜂巢式磁轨炮台</label>
+    <label>Z_TowerA_mini</label>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>Things/Building/Turret/Base_Base2</texPath>
@@ -169,6 +173,8 @@ level:A.</description>
       <turretGunDef>Z_TowerBase2A</turretGunDef>
       <turretBurstCooldownTime>0</turretBurstCooldownTime>
     </building>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Z_TurretgunB</defName>
@@ -180,7 +186,7 @@ level:A.</description>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>1</damageAmountBase>
+      <damageAmountBase>5</damageAmountBase>
       <speed>500</speed>
     </projectile>
   </ThingDef>
@@ -215,8 +221,10 @@ level:A.</description>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>5</burstShotCount>
       </li>
     </verbs>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
 </Defs>

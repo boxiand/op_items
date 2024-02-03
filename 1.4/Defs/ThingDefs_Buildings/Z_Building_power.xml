@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_Power</defName>
-    <label>稳定的恒星能量提取站</label>
+    <label>Z_Power</label>
     <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
     <thingClass>Building</thingClass>
     <graphicData>
@@ -59,10 +59,12 @@
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_Battery</defName>
-    <label>Z_高功率电池</label>
+    <label>Z_Battery</label>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
       <texPath>Things/Building/Power/Battery</texPath>
@@ -113,10 +115,12 @@
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>1.5</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_PowerMiNi</defName>
-    <label>反物质能量提取站</label>
+    <label>Z_PowerMiNi</label>
     <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
     <thingClass>Building</thingClass>
     <graphicData>
@@ -154,7 +158,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-90000000</basePowerConsumption>
+        <basePowerConsumption>-3000</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable" />
@@ -173,5 +177,7 @@
     <designationCategory>Power</designationCategory>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
 </Defs>

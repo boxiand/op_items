@@ -3,7 +3,7 @@
   <!--door-->
   <ThingDef ParentName="BuildingBase">
     <defName>Zhaos_CompDoor</defName>
-    <label>Z_复合门</label>
+    <label>Zhaos_CompDoor</label>
     <description>A door made by quantum alloy, with multithread structure it can significantly reduce damage from impact power and energy pulse..</description>
     <thingClass>Building_Door</thingClass>
     <graphicData>
@@ -62,7 +62,7 @@
       <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1</basePowerConsumption>
+        <basePowerConsumption>-1</basePowerConsumption>
       </li>
       <li Class="CompProperties_Breakdownable" />
       <li Class="CompProperties_Glower">
@@ -124,12 +124,14 @@
         <multiplier>0.01</multiplier>
       </li>
     </damageMultipliers>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <!--wall-->
   <ThingDef ParentName="BuildingBase">
     <!--Name="Wall"-->
     <defName>Zhaos_CompWall</defName>
-    <label>Z_复合墙</label>
+    <label>Zhaos_CompWall</label>
     <thingClass>Building</thingClass>
     <category>Building</category>
     <description>A wall made by quantum alloy, with multithread structure it can significantly reduce damage from impact power and energy pulse..</description>
@@ -251,11 +253,13 @@
         <multiplier>0.01</multiplier>
       </li>
     </damageMultipliers>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
   <!--light-->
   <ThingDef ParentName="BuildingBase">
     <defName>Z_ArcLamp</defName>
-    <label>Z_弧光灯</label>
+    <label>Z_ArcLamp</label>
     <description>私用版，通过特制的装置吸收周围环境的热能来发光，可以让植物生长。.</description>
     <thingClass>Building_SunLamp</thingClass>
     <minifiedDef>MinifiedThing</minifiedDef>
@@ -314,5 +318,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <specialDisplayRadius>5.8</specialDisplayRadius>
     <!--<drawerType>RealtimeOnly</drawerType>-->
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
 </Defs>

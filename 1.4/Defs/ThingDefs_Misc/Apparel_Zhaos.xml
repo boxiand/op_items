@@ -52,7 +52,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase_Zhaos">
     <defName>Z_Apparel_Zhaos</defName>
-    <label>Z_防护内衬.</label>
+    <label>Z_Apparel_Zhaos.</label>
     <description>高强度抗性的内衬</description>
     <graphicData>
       <texPath>Things/Clothes/ZhaosC1/ZhaosC1</texPath>
@@ -66,9 +66,9 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <MarketValue>20</MarketValue>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>100</WorkToMake>
+      <MarketValue>200000</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
       <Mass>1.0</Mass>
       <ArmorRating_Blunt>3.6</ArmorRating_Blunt>
       <ArmorRating_Sharp>3.6</ArmorRating_Sharp>
@@ -111,5 +111,6 @@
       </options>
     </colorGenerator>
     <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>
 </Defs>
