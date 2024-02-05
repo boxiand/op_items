@@ -166,11 +166,6 @@
         <glowRadius>2</glowRadius>
         <glowColor>(0,255,211,0)</glowColor>
       </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>120</heatPerSecond>
-        <heatPushMaxTemperature>50</heatPushMaxTemperature>
-      </li>
       <li Class="CompProperties_Breakdownable" />
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
