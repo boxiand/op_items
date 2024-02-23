@@ -30,7 +30,7 @@
     </graphicData>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>500000000000</MarketValue>
+      <MarketValue>1</MarketValue>
       <Mass>0.005</Mass>
       <Flammability>0</Flammability>
       <DeteriorationRate>0</DeteriorationRate>
@@ -88,7 +88,7 @@
     <soundDrop>Metal_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <MarketValue>1000000</MarketValue>
+      <MarketValue>1</MarketValue>
       <Mass>0.1</Mass>
       <SharpDamageMultiplier>26</SharpDamageMultiplier>
       <BluntDamageMultiplier>26</BluntDamageMultiplier>

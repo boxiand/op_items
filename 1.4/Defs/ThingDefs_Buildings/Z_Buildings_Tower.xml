@@ -32,10 +32,9 @@
       <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-100000</basePowerConsumption>
+        <basePowerConsumption>-10</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
     </comps>
     <description>Z_送眼前的一切敌人去见上帝。精确且致命
 level:SSS.</description>
@@ -72,6 +71,7 @@ level:SSS.</description>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>500</damageAmountBase>
+      <stoppingPower>100</stoppingPower>
       <speed>320</speed>
     </projectile>
   </ThingDef>
@@ -148,7 +148,6 @@ level:SSS.</description>
         <basePowerConsumption>-1000</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
     </comps>
     <description>Z_防御型平台，顶级射速。
 低伤害但同样致命
@@ -187,6 +186,7 @@ level:A.</description>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>100</stoppingPower>
       <speed>500</speed>
     </projectile>
   </ThingDef>
@@ -220,8 +220,8 @@ level:A.</description>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
-        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>15</burstShotCount>
       </li>
     </verbs>
     <generateCommonality>0</generateCommonality>

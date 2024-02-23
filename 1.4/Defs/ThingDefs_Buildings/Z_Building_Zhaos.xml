@@ -64,7 +64,6 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>-1</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Breakdownable" />
       <li Class="CompProperties_Glower">
         <glowRadius>1.3</glowRadius>
         <glowColor>(127,255,255,0)</glowColor>

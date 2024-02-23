@@ -53,7 +53,6 @@
         <heatPerSecond>120</heatPerSecond>
         <heatPushMaxTemperature>50</heatPushMaxTemperature>
       </li>
-      <li Class="CompProperties_Breakdownable" />
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
@@ -109,7 +108,6 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable" />
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
@@ -166,7 +164,6 @@
         <glowRadius>2</glowRadius>
         <glowColor>(0,255,211,0)</glowColor>
       </li>
-      <li Class="CompProperties_Breakdownable" />
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
