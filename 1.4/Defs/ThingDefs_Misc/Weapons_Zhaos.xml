@@ -9,7 +9,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>10</damageAmountBase>
       <stoppingPower>100</stoppingPower>
       <speed>350</speed>
     </projectile>
@@ -37,7 +37,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>3</damageAmountBase>
+      <damageAmountBase>2</damageAmountBase>
       <speed>300</speed>
     </projectile>
   </ThingDef>
@@ -208,7 +208,7 @@
         <!--射程-->
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <!--每次射击子弹数量-->
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <!--单位时间射速，用3600除以这个数得出射速-->
@@ -292,7 +292,7 @@
         <!--射程-->
         <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
-        <burstShotCount>20</burstShotCount>
+        <burstShotCount>10</burstShotCount>
         <!--每次射击子弹数量-->
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <!--单位时间射速，用3600除以这个数得出射速-->
@@ -306,7 +306,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
+        <power>8</power>
         <cooldownTime>1</cooldownTime>
       </li>
       <li>
@@ -314,7 +314,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>10</power>
+        <power>8</power>
         <cooldownTime>1</cooldownTime>
       </li>
       <li>
@@ -322,7 +322,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>5</power>
+        <power>8</power>
         <cooldownTime>1</cooldownTime>
       </li>
     </tools>
