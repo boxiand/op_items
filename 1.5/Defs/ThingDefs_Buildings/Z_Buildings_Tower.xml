@@ -35,6 +35,16 @@
         <basePowerConsumption>-10</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_ProjectileInterceptor">
+          <radius>16</radius>
+          <interceptAirProjectiles>true</interceptAirProjectiles>
+          <color>(0.6, 0.6, 0.6)</color>
+          <reactivateEffect>MortarShieldGenerator_Reactivate</reactivateEffect>
+          <activeSound>MortarShield_Ambience</activeSound>
+          <disarmedByEmpForTicks>100</disarmedByEmpForTicks>
+          <chargeIntervalTicks>600000</chargeIntervalTicks>
+          <chargeDurationTicks>100</chargeDurationTicks>
+        </li>
     </comps>
     <description>Z_送眼前的一切敌人去见上帝。精确且致命
 level:SSS.</description>
