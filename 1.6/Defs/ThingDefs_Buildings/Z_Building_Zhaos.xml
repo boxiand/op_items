@@ -180,7 +180,11 @@
       <blueprintGraphicData>
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
+      <isAirtight>true</isAirtight>
     </building>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>1.3</glowRadius>

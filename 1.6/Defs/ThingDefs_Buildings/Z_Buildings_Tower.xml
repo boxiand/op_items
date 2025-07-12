@@ -36,13 +36,14 @@
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_ProjectileInterceptor">
-          <radius>16</radius>
+          <radius>12</radius>
           <interceptAirProjectiles>true</interceptAirProjectiles>
+          <interceptGroundProjectiles>true</interceptGroundProjectiles>
           <color>(0.6, 0.6, 0.6)</color>
           <reactivateEffect>MortarShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>MortarShield_Ambience</activeSound>
           <disarmedByEmpForTicks>1</disarmedByEmpForTicks>
-          <chargeIntervalTicks>10000</chargeIntervalTicks>
+          <chargeIntervalTicks>100000</chargeIntervalTicks>
           <chargeDurationTicks>1</chargeDurationTicks>
       </li>
     </comps>
@@ -186,7 +187,7 @@ level:A.</description>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet</damageDef>
+      <damageDef>Bullet_TraitTox</damageDef>
       <damageAmountBase>5</damageAmountBase>
       <stoppingPower>100</stoppingPower>
       <speed>500</speed>

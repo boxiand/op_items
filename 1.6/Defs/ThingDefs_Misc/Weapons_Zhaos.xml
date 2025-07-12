@@ -36,8 +36,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>2</damageAmountBase>
+      <damageDef>Bullet_TraitTox</damageDef>
+      <damageAmountBase>3</damageAmountBase>
       <speed>300</speed>
     </projectile>
   </ThingDef>
