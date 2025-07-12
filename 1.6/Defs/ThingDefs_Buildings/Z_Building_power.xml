@@ -55,7 +55,7 @@
       </li>
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
+    <designationCategory>Security</designationCategory>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
     <generateCommonality>0</generateCommonality>
@@ -166,7 +166,7 @@
       </li>
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
+    <designationCategory>Security</designationCategory>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
     <generateCommonality>0</generateCommonality>

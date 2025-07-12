@@ -35,7 +35,7 @@
     <rotatable>false</rotatable>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <designationCategory>Structure</designationCategory>
+    <designationCategory>Security</designationCategory>
     <holdsRoof>true</holdsRoof>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>false</blockLight>
@@ -172,7 +172,7 @@
     <neverMultiSelect>true</neverMultiSelect>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <holdsRoof>true</holdsRoof>
-    <designationCategory>Structure</designationCategory>
+    <designationCategory>Security</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>false</blockLight>
     <building>
@@ -260,7 +260,7 @@
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <pathCost>1</pathCost>
-    <designationCategory>Furniture</designationCategory>
+    <designationCategory>Security</designationCategory>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <graphicData>
       <texPath>Things/Building/Light/Z_ArcLamp</texPath>
@@ -309,5 +309,60 @@
     <!--<drawerType>RealtimeOnly</drawerType>-->
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>Z_HydroponicsBasin</defName>
+    <label>z hydroponics basin</label>
+    <description>An artificial nutrient bath for growing plants.</description>
+    <noRightClickDraftAttack>true</noRightClickDraftAttack>
+    <thingClass>Building_PlantGrower</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/HydroponicsBasin</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <altitudeLayer>LowPlant</altitudeLayer>
+    <defaultPlacingRot>East</defaultPlacingRot>
+    <passability>PassThroughOnly</passability>
+    <pathCost>30</pathCost>
+    <constructEffect>ConstructMetal</constructEffect>
+    <fillPercent>0.30</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+    <statBases>
+      <WorkToBuild>100</WorkToBuild>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(1,4)</size>
+    <costList>
+      <Z_StanStoneA>1</Z_StanStoneA>
+    </costList>
+    <fertility>5.</fertility>
+    <building>
+      <defaultPlantToGrow>Plant_Rice</defaultPlantToGrow>
+      <sowTag>Hydroponic</sowTag>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+    </building>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>70</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
   </ThingDef>
 </Defs>

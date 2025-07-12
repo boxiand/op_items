@@ -61,7 +61,7 @@
         <glowColor>(135,206,250,0)</glowColor>
       </li>
     </comps>
-    <designationCategory>Temperature</designationCategory>
+    <designationCategory>Security</designationCategory>
     <designationHotKey>Misc2</designationHotKey>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
@@ -80,7 +80,7 @@
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <pathCost>1</pathCost>
-    <designationCategory>Temperature</designationCategory>
+    <designationCategory>Security</designationCategory>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <graphicData>
       <texPath>Things/Building/Wendu/Z_Cooler_internal</texPath>
@@ -180,7 +180,7 @@
         <energyPerSecond>-1000</energyPerSecond>
       </li>
     </comps>
-    <designationCategory>Temperature</designationCategory>
+    <designationCategory>Security</designationCategory>
     <designationHotKey>Misc3</designationHotKey>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>

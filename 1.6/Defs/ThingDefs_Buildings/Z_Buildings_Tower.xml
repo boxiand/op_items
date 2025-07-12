@@ -23,7 +23,7 @@
     <statBases>
       <MaxHitPoints>147483647</MaxHitPoints>
       <Flammability>0</Flammability>
-      <WorkToBuild>1000</WorkToBuild>
+      <WorkToBuild>100</WorkToBuild>
       <Mass>20</Mass>
       <Beauty>50000</Beauty>
     </statBases>
@@ -41,10 +41,10 @@
           <color>(0.6, 0.6, 0.6)</color>
           <reactivateEffect>MortarShieldGenerator_Reactivate</reactivateEffect>
           <activeSound>MortarShield_Ambience</activeSound>
-          <disarmedByEmpForTicks>100</disarmedByEmpForTicks>
-          <chargeIntervalTicks>600000</chargeIntervalTicks>
-          <chargeDurationTicks>100</chargeDurationTicks>
-        </li>
+          <disarmedByEmpForTicks>1</disarmedByEmpForTicks>
+          <chargeIntervalTicks>10000</chargeIntervalTicks>
+          <chargeDurationTicks>1</chargeDurationTicks>
+      </li>
     </comps>
     <description>Z_送眼前的一切敌人去见上帝。精确且致命
 level:SSS.</description>
@@ -142,7 +142,7 @@ level:SSS.</description>
     <statBases>
       <MaxHitPoints>147483647</MaxHitPoints>
       <Flammability>0</Flammability>
-      <WorkToBuild>1000</WorkToBuild>
+      <WorkToBuild>100</WorkToBuild>
       <Mass>20</Mass>
       <Beauty>50000</Beauty>
     </statBases>
