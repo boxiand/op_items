@@ -65,6 +65,9 @@
     <designationHotKey>Misc2</designationHotKey>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_Cooler_internal</defName>
@@ -129,6 +132,9 @@
     <!--<drawerType>RealtimeOnly</drawerType>-->
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_CoolerP</defName>
@@ -184,5 +190,8 @@
     <designationHotKey>Misc3</designationHotKey>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
   </ThingDef>
 </Defs>

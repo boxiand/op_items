@@ -36,7 +36,7 @@
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_ProjectileInterceptor">
-          <radius>12</radius>
+          <radius>9</radius>
           <interceptAirProjectiles>true</interceptAirProjectiles>
           <interceptGroundProjectiles>true</interceptGroundProjectiles>
           <color>(0.6, 0.6, 0.6)</color>
@@ -57,6 +57,9 @@ level:SSS.</description>
     <costList>
       <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
     <specialDisplayRadius>35</specialDisplayRadius>
@@ -167,6 +170,9 @@ level:A.</description>
     <costList>
       <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
     <specialDisplayRadius>35</specialDisplayRadius>

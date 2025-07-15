@@ -313,6 +313,9 @@
     <!--<drawerType>RealtimeOnly</drawerType>-->
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>Z_HydroponicsBasin</defName>
@@ -342,7 +345,7 @@
     <constructionSkillPrerequisite>1</constructionSkillPrerequisite>
     <statBases>
       <WorkToBuild>100</WorkToBuild>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>1000000</MaxHitPoints>
       <Flammability>0</Flammability>
     </statBases>
     <size>(1,4)</size>
@@ -367,6 +370,79 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="GravshipComponentBase">
+    <defName>Z_GravEngine</defName>
+    <label>grav engine</label>
+    <description>The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds.</description>
+    <thingClass>Building_GravEngine</thingClass>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedGravEngine</minifiedDef>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/GravEngine/GravEngine</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>9999999</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>30</Mass>
+      <GravshipRange>0</GravshipRange>
+      <SubstructureSupport>600</SubstructureSupport>
+      <MarketValue>1</MarketValue>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(3,3)</size>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.6</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>20</pathCost>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <deconstructible>false</deconstructible>
+      <relatedBuildCommands>
+        <li>GravshipHull</li>
+      </relatedBuildCommands>
+      <relatedTerrain>
+        <li>Substructure</li>
+      </relatedTerrain>
+    </building>
+    <costList>
+      <Z_StanStoneA>1</Z_StanStoneA>
+    </costList>
+    <comps>
+      <li Class="CompProperties_SubstructureFootprint">
+        <radius>18.9</radius>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(0,218,255,0)</glowColor>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>GravFieldExtender</li>
+          <li>PilotConsole</li>
+          <li>ChemfuelTank</li>
+          <li>LargeChemfuelTank</li>
+          <li>SmallThruster</li>
+          <li>LargeThruster</li>
+          <li>FuelOptimizer</li>
+          <li>SignalJammer</li>
+          <li>PilotSubpersonaCore</li>
+          <li>GravshipShieldGenerator</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_AmbientSound">
+        <sound>GravshipEngine_Ambient</sound>
+      </li>
+    </comps>
     <designationCategory>Security</designationCategory>
   </ThingDef>
 </Defs>

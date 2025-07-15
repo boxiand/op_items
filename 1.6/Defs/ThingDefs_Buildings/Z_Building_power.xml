@@ -60,6 +60,9 @@
     <constructEffect>ConstructMetal</constructEffect>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
   </ThingDef>
   <!-- <ThingDef ParentName="BuildingBase">
     <defName>Z_Battery</defName>
@@ -171,5 +174,8 @@
     <constructEffect>ConstructMetal</constructEffect>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
   </ThingDef>
 </Defs>
