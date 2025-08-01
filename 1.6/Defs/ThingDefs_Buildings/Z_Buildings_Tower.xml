@@ -111,12 +111,13 @@ level:SSS.</description>
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Bullet_Z_TurretgunA</defaultProjectile>
         <warmupTime>0</warmupTime>
-        <range>1250</range>
+        <range>500</range>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>18</muzzleFlashScale>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
         <burstShotCount>20</burstShotCount>
+        <requireLineOfSight>false</requireLineOfSight>
       </li>
     </verbs>
     <generateCommonality>0</generateCommonality>

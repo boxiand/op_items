@@ -445,4 +445,141 @@
     </comps>
     <designationCategory>Security</designationCategory>
   </ThingDef>
+  <!-- Auto mortar -->
+
+  <ThingDef ParentName="BaseArtilleryBuilding">
+    <defName>Z_Turret_AutoMortar</defName>
+    <label>auto mortar</label>
+    <description>A self-powered, self-loading, maned mortar.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <drawHighlight>true</drawHighlight>
+    <drawHighlightOnlyForHostile>true</drawHighlightOnlyForHostile>
+    <graphicData>
+      <texPath>Things/Building/Mech/TurretMechLarge_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,-0.16)</drawOffset>
+      <damageData>
+        <rect>(0.3,0.3,1.4,1.4)</rect>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+    <receivesSignals>true</receivesSignals>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>10</wickTicks>
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <!-- <li Class="CompProperties_Initiatable" /> -->
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <statBases>
+      <MaxHitPoints>20000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>30</Mass>
+      <ShootingAccuracyTurret>0.9</ShootingAccuracyTurret>
+      <Beauty>50</Beauty>
+      <WorkToBuild>100</WorkToBuild>
+    </statBases>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <building>
+      <turretGunDef>Z_Artillery_AutoMortar</turretGunDef>
+      <buildingTags>
+        <li>MechClusterMember</li>
+        <li>MechClusterProblemCauser</li>
+      </buildingTags>
+      <turretBurstWarmupTime>1.</turretBurstWarmupTime>
+      <turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+      <turretInitialCooldownTime>1.0</turretInitialCooldownTime>
+      <deconstructible>false</deconstructible>
+      <quickTargetable>true</quickTargetable>
+      <isTargetable>true</isTargetable>
+      <buildingTags>
+        <li>Artillery_BaseDestroyer</li>
+        <li>Artillery_MannedMortar</li>
+      </buildingTags>
+    </building>
+    <costList>
+      <Z_StanStoneA>1</Z_StanStoneA>
+    </costList>
+    <designationCategory>Security</designationCategory>
+    <placeWorkers>
+      <li>PlaceWorker_OnSubstructure</li>
+    </placeWorkers>
+    <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Z_Bullet_Shell_HighExplosive</defName>
+    <label>high-explosive shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>BombSuper</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>350</speed>
+      <explosionRadius>2.5</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <preExplosionSpawnSingleThingDef>Filth_BlastMark</preExplosionSpawnSingleThingDef>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Z_Artillery_AutoMortar</defName>
+    <label>mortar</label>
+    <graphicData>
+      <texPath>Things/Building/Mech/TurretMechMortar_Top</texPath>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Z_Bullet_Shell_HighExplosive</defaultProjectile>
+        <forcedMissRadius>2</forcedMissRadius>
+        <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+        <warmupTime>2.</warmupTime>
+        <minRange>5.</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+        <requireLineOfSight>false</requireLineOfSight>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetLocations>true</canTargetLocations>
+          <canTargetBuildings>true</canTargetBuildings>
+        </targetParams>
+        <isMortar>true</isMortar>
+      </li>
+    </verbs>
+  </ThingDef>
+
 </Defs>

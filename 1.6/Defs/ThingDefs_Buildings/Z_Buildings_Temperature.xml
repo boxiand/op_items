@@ -136,7 +136,7 @@
       <li>PlaceWorker_OnSubstructure</li>
     </placeWorkers>
   </ThingDef>
-  <ThingDef ParentName="BuildingBase">
+  <!-- <ThingDef ParentName="BuildingBase">
     <defName>Z_CoolerP</defName>
     <label>Z_CoolerP</label>
     <thingClass>Building_Cooler</thingClass>
@@ -193,5 +193,5 @@
     <placeWorkers>
       <li>PlaceWorker_OnSubstructure</li>
     </placeWorkers>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>
