@@ -30,10 +30,6 @@
     <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Forbiddable" />
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-10</basePowerConsumption>
-      </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_ProjectileInterceptor">
           <radius>9</radius>
@@ -154,10 +150,6 @@ level:SSS.</description>
     <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Forbiddable" />
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-1000</basePowerConsumption>
-      </li>
       <li Class="CompProperties_Flickable" />
     </comps>
     <description>Z_防御型平台，顶级射速。

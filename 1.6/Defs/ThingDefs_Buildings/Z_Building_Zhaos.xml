@@ -522,6 +522,8 @@
     <placeWorkers>
       <li>PlaceWorker_OnSubstructure</li>
     </placeWorkers>
+      <generateCommonality>0</generateCommonality>
+      <generateAllowChance>0.00</generateAllowChance>
     <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath>
   </ThingDef>
 
