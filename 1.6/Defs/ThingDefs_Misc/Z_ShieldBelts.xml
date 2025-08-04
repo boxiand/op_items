@@ -13,10 +13,10 @@
     <statBases>
       <Mass>1</Mass>
       <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>12</EnergyShieldEnergyMax>
-      <WorkToMake>1000</WorkToMake>
+      <EnergyShieldEnergyMax>15</EnergyShieldEnergyMax>
+      <WorkToMake>100</WorkToMake>
       <DeteriorationRate>0</DeteriorationRate>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
     </statBases>
     <costList>
       <Z_StanStoneA>1</Z_StanStoneA>
