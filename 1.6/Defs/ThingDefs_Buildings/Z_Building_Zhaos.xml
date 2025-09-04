@@ -540,7 +540,7 @@
       <damageDef>BombSuper</damageDef>
       <!-- damage amount is the damage def default -->
       <speed>350</speed>
-      <explosionRadius>2.5</explosionRadius>
+      <explosionRadius>3</explosionRadius>
       <flyOverhead>true</flyOverhead>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>MortarBomb_Explode</soundExplode>
