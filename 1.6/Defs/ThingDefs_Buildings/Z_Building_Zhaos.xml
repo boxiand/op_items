@@ -394,11 +394,12 @@
       <WorkToBuild>100</WorkToBuild>
       <Mass>30</Mass>
       <GravshipRange>0</GravshipRange>
-      <SubstructureSupport>600</SubstructureSupport>
+      <SubstructureSupport>2000</SubstructureSupport>
       <MarketValue>1</MarketValue>
       <Flammability>0</Flammability>
     </statBases>
     <size>(3,3)</size>
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.6</fillPercent>
     <passability>PassThroughOnly</passability>
@@ -419,7 +420,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_SubstructureFootprint">
-        <radius>18.9</radius>
+        <radius>28</radius>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>8</glowRadius>
@@ -487,7 +488,7 @@
       <li Class="CompProperties_Flickable" />
     </comps>
     <statBases>
-      <MaxHitPoints>20000</MaxHitPoints>
+      <MaxHitPoints>200000</MaxHitPoints>
       <Flammability>0</Flammability>
       <Mass>30</Mass>
       <ShootingAccuracyTurret>0.9</ShootingAccuracyTurret>
@@ -539,8 +540,8 @@
     <projectile>
       <damageDef>BombSuper</damageDef>
       <!-- damage amount is the damage def default -->
-      <speed>350</speed>
-      <explosionRadius>3</explosionRadius>
+      <speed>400</speed>
+      <explosionRadius>3.5</explosionRadius>
       <flyOverhead>true</flyOverhead>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>MortarBomb_Explode</soundExplode>
@@ -564,7 +565,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Z_Bullet_Shell_HighExplosive</defaultProjectile>
-        <forcedMissRadius>2</forcedMissRadius>
+        <forcedMissRadius>1.</forcedMissRadius>
         <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
         <warmupTime>2.</warmupTime>
         <minRange>5.</minRange>
