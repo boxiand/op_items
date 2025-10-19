@@ -399,7 +399,6 @@
       <Flammability>0</Flammability>
     </statBases>
     <size>(3,3)</size>
-    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.6</fillPercent>
     <passability>PassThroughOnly</passability>
@@ -463,7 +462,7 @@
       <damageData>
         <rect>(0.3,0.3,1.4,1.4)</rect>
       </damageData>
-      <shadowData>
+      <shadowData> 
         <offset>(-0.13,-0.87,-0.1)</offset>
         <volume>(0.5,0.4,1.05)</volume>
       </shadowData>
