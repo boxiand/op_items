@@ -540,7 +540,7 @@
       <damageDef>BombSuper</damageDef>
       <!-- damage amount is the damage def default -->
       <speed>400</speed>
-      <explosionRadius>3.5</explosionRadius>
+      <explosionRadius>4.</explosionRadius>
       <flyOverhead>true</flyOverhead>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>MortarBomb_Explode</soundExplode>
@@ -564,12 +564,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>Z_Bullet_Shell_HighExplosive</defaultProjectile>
-        <forcedMissRadius>1.</forcedMissRadius>
-        <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+        <forcedMissRadius>0</forcedMissRadius>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
         <warmupTime>2.</warmupTime>
         <minRange>5.</minRange>
         <range>500</range>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
