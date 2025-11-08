@@ -111,7 +111,7 @@
       <statFactors>
         <MaxHitPoints>10000</MaxHitPoints>
         <Beauty>12</Beauty>
-        <WorkToMake>50000000</WorkToMake>
+        <WorkToMake>50</WorkToMake>
         <WorkToBuild>5</WorkToBuild>
         <DoorOpenSpeed>10</DoorOpenSpeed>
         <MarketValue>1</MarketValue>

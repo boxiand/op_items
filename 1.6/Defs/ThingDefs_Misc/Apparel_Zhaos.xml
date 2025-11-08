@@ -115,8 +115,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <targetable>true</targetable>
         <onlyManualCast>True</onlyManualCast>
-        <range>16.9</range>
-        <warmupTime>0.1</warmupTime>
+        <range>25</range>
+        <warmupTime>0.01</warmupTime>
+        <requireLineOfSight>false</requireLineOfSight>
         <targetParams>
           <canTargetBuildings>false</canTargetBuildings>
           <neverTargetIncapacitated>true</neverTargetIncapacitated>
@@ -171,12 +172,14 @@
           <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
           <ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
           <ToxicResistance>0.5</ToxicResistance>
-          <IncomingDamageFactor>0.5</IncomingDamageFactor>
           <MeleeDamageFactor>1.5</MeleeDamageFactor>
           <MechBandwidth>12</MechBandwidth>
           <MechControlGroups>1</MechControlGroups>
           <WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
         </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.5</IncomingDamageFactor>
+        </statFactors>
         <blocksMentalBreaks>true</blocksMentalBreaks>
         <makeImmuneTo>
           <li>Flu</li>
@@ -209,6 +212,10 @@
     <costList>
       <Z_StanStoneA>1</Z_StanStoneA>
     </costList>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <WorkToMake>20</WorkToMake>
+    </statBases>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -267,5 +274,23 @@
     <jobString>Removing  Z_Enhancer.</jobString>
     <removesHediff>Z_Enhancer</removesHediff>
   </RecipeDef>
+
+
+  <XenotypeDef>
+    <defName>Z_baseline</defName>
+    <label>Z_baseliner</label>
+    <description>A Z naturally-evolved human with no major significant genetic modifications.</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+     <genes>
+      <li>Ageless</li>
+      <li>Deathless</li>
+      <li>TotalHealing</li>
+      <li>ToxResist_Total</li>
+      <li>AptitudePoor_Animals</li>
+      <li>AptitudeTerrible_Artistic</li>
+    </genes>
+  </XenotypeDef>
 
 </Defs>
