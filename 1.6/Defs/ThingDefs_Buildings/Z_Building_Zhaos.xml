@@ -449,7 +449,7 @@
 
   <ThingDef ParentName="BaseArtilleryBuilding">
     <defName>Z_Turret_AutoMortar</defName>
-    <label>auto mortar</label>
+    <label>Z_Auto_Mortar</label>
     <description>A self-powered, self-loading, maned mortar.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <drawHighlight>true</drawHighlight>
