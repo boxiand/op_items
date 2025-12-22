@@ -168,12 +168,12 @@
           <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
           <ArmorRating_Heat>1.5</ArmorRating_Heat>
           <RestFallRateFactor>-0.2</RestFallRateFactor>
-          <MoveSpeed>0.25</MoveSpeed>
+          <MoveSpeed>0.3</MoveSpeed>
           <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
           <ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
           <ToxicResistance>0.5</ToxicResistance>
-          <MeleeDamageFactor>1.5</MeleeDamageFactor>
-          <MechBandwidth>12</MechBandwidth>
+          <MeleeDamageFactor>1.8</MeleeDamageFactor>
+          <MechBandwidth>21</MechBandwidth>
           <MechControlGroups>1</MechControlGroups>
           <WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
         </statOffsets>
@@ -192,7 +192,8 @@
           <li>MuscleParasites</li>
           <li>OrganDecay</li>
         </makeImmuneTo>
-        <hungerRateFactor>0.25</hungerRateFactor>
+        <!-- <hungerRateFactor>0.25</hungerRateFactor> -->
+        <hungerRateFactorOffset>-0.8</hungerRateFactorOffset>
         <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
       </li>
     </stages>
