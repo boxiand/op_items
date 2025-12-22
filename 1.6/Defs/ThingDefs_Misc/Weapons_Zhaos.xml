@@ -37,7 +37,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet_TraitTox</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>9</damageAmountBase>
       <stoppingPower>100</stoppingPower>
       <speed>300</speed>
     </projectile>
@@ -269,7 +269,7 @@
       <AccuracyShort>1</AccuracyShort>
       <AccuracyMedium>1</AccuracyMedium>
       <AccuracyLong>0.99</AccuracyLong>
-      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
       <!--远程武器射击后冷却时间-->
       <MaxHitPoints>300</MaxHitPoints>
       <Beauty>50</Beauty>
@@ -307,7 +307,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
+        <power>12</power>
         <cooldownTime>1</cooldownTime>
       </li>
       <li>
@@ -315,7 +315,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>8</power>
+        <power>12</power>
         <cooldownTime>1</cooldownTime>
       </li>
       <li>
@@ -323,17 +323,13 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>8</power>
+        <power>12</power>
         <cooldownTime>1</cooldownTime>
       </li>
     </tools>
     <weaponTags>
       <li>ZhaosRifle</li>
     </weaponTags>
-    <equippedStatOffsets>
-      <MoveSpeed>1.0</MoveSpeed>
-      <WorkSpeedGlobal>1.3</WorkSpeedGlobal>
-    </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
   </ThingDef>

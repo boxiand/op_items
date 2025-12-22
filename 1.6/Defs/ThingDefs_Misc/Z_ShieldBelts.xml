@@ -58,5 +58,63 @@
     </colorGenerator>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0.00</generateAllowChance>
+    <comps>
+      <li Class="CompProperties_ApparelReloadable">
+        <maxCharges>100</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>20</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>grenade</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>launch frag grenade</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <range>75</range>
+        <forcedMissRadius>0.</forcedMissRadius>
+        <warmupTime>0.1</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+        <requireLineOfSight>false</requireLineOfSight>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetLocations>true</canTargetLocations>
+          <canTargetBuildings>true</canTargetBuildings>
+        </targetParams>
+        <defaultProjectile>ZProj_GrenadierGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="ZFragGrenadeProjectile">
+    <defName>ZProj_GrenadierGrenade</defName>
+    <label>frag grenade</label>
+    <projectile>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef Name="ZFragGrenadeProjectile" ParentName="BaseGrenadeProjectile" Abstract="True">
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Grenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>1.</explosionRadius >
+      <damageDef>BombSuper</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionDelay>100</explosionDelay>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
   </ThingDef>
 </Defs>
