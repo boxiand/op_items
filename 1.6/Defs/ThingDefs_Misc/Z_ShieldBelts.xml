@@ -84,8 +84,8 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
-        <requireLineOfSight>false</requireLineOfSight>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <!-- <requireLineOfSight>false</requireLineOfSight> -->
         <targetParams>
           <canTargetPawns>true</canTargetPawns>
           <canTargetLocations>true</canTargetLocations>
@@ -114,7 +114,7 @@
       <damageDef>BombSuper</damageDef>
       <!-- Use default damage from explosion def -->
       <explosionDelay>1</explosionDelay>
-      <flyOverhead>true</flyOverhead>
+      <!-- <flyOverhead>true</flyOverhead> -->
     </projectile>
   </ThingDef>
 </Defs>
