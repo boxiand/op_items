@@ -13,7 +13,7 @@
     <statBases>
       <Mass>1</Mass>
       <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>15</EnergyShieldEnergyMax>
+      <EnergyShieldEnergyMax>18</EnergyShieldEnergyMax>
       <WorkToMake>100</WorkToMake>
       <DeteriorationRate>0</DeteriorationRate>
       <MaxHitPoints>200</MaxHitPoints>
@@ -76,7 +76,7 @@
         <verbClass>Verb_LaunchProjectileStatic</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <onlyManualCast>True</onlyManualCast>
-        <range>75</range>
+        <range>90</range>
         <forcedMissRadius>0.</forcedMissRadius>
         <warmupTime>0.1</warmupTime>
         <noiseRadius>4</noiseRadius>
@@ -110,10 +110,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <explosionRadius>1.</explosionRadius >
+      <explosionRadius>1.5</explosionRadius >
       <damageDef>BombSuper</damageDef>
       <!-- Use default damage from explosion def -->
-      <explosionDelay>100</explosionDelay>
+      <explosionDelay>1</explosionDelay>
       <flyOverhead>true</flyOverhead>
     </projectile>
   </ThingDef>
