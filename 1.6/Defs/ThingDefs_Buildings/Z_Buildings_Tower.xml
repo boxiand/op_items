@@ -197,11 +197,13 @@ level:A.</description>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet_TraitTox</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <stoppingPower>100</stoppingPower>
+      <!-- <damageDef>Bullet_TraitTox</damageDef> -->
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>50</damageAmountBase>
       <armorPenetrationBase>1.</armorPenetrationBase>
+      <stoppingPower>100</stoppingPower>
       <speed>500</speed>
+      <explosionRadius>0.75</explosionRadius>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseWeaponTurret">
@@ -217,7 +219,7 @@ level:A.</description>
       <AccuracyShort>1</AccuracyShort>
       <AccuracyMedium>1</AccuracyMedium>
       <AccuracyLong>1</AccuracyLong>
-      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
       <Mass>5</Mass>
       <DeteriorationRate>0</DeteriorationRate>
       <Flammability>0</Flammability>
@@ -235,7 +237,7 @@ level:A.</description>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <burstShotCount>15</burstShotCount>
+        <burstShotCount>1</burstShotCount>
       </li>
     </verbs>
     <generateCommonality>0</generateCommonality>

@@ -38,7 +38,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet_TraitTox</damageDef>
+      <!-- <damageDef>Bullet_TraitTox</damageDef> -->
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>0.75</explosionRadius>
       <damageAmountBase>9</damageAmountBase>
       <stoppingPower>5</stoppingPower>
       <armorPenetrationBase>1.</armorPenetrationBase>
@@ -273,7 +275,7 @@
       <AccuracyShort>1</AccuracyShort>
       <AccuracyMedium>1</AccuracyMedium>
       <AccuracyLong>0.99</AccuracyLong>
-      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.15</RangedWeapon_Cooldown>
       <!--远程武器射击后冷却时间-->
       <MaxHitPoints>300</MaxHitPoints>
       <Beauty>50</Beauty>
