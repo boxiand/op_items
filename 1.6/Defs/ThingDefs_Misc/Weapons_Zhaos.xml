@@ -38,10 +38,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet_TraitTox</damageDef>
+      <!-- <damageDef>Bullet_TraitTox</damageDef> -->
+      <damageDef>Bomb</damageDef>
       <damageAmountBase>9</damageAmountBase>
       <stoppingPower>5</stoppingPower>
       <armorPenetrationBase>1.</armorPenetrationBase>
+      <explosionRadius>0.75</explosionRadius>
       <speed>300</speed>
     </projectile>
   </ThingDef>
