@@ -12,8 +12,8 @@
     <tickerType>Normal</tickerType>
     <statBases>
       <Mass>1</Mass>
-      <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>18</EnergyShieldEnergyMax>
+      <EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>25</EnergyShieldEnergyMax>
       <WorkToMake>100</WorkToMake>
       <DeteriorationRate>0</DeteriorationRate>
       <MaxHitPoints>200</MaxHitPoints>

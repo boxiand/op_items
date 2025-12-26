@@ -12,6 +12,7 @@
       <damageAmountBase>10</damageAmountBase>
       <stoppingPower>100</stoppingPower>
       <speed>350</speed>
+      <armorPenetrationBase>1.</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet_Zhaos">
@@ -26,6 +27,7 @@
       <damageAmountBase>50</damageAmountBase>
       <stoppingPower>100</stoppingPower>
       <speed>700</speed>
+      <armorPenetrationBase>1.</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet_Zhaos">
@@ -38,7 +40,8 @@
     <projectile>
       <damageDef>Bullet_TraitTox</damageDef>
       <damageAmountBase>9</damageAmountBase>
-      <stoppingPower>100</stoppingPower>
+      <stoppingPower>5</stoppingPower>
+      <armorPenetrationBase>1.</armorPenetrationBase>
       <speed>300</speed>
     </projectile>
   </ThingDef>
@@ -88,6 +91,7 @@
       <damageAmountBase>10</damageAmountBase>
       <stoppingPower>100</stoppingPower>
       <speed>260</speed>
+      <armorPenetrationBase>1.</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <!-- ^^^^^^^Bullet -->
@@ -309,6 +313,7 @@
         </capacities>
         <power>12</power>
         <cooldownTime>1</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
       </li>
       <li>
         <label>point</label>
@@ -317,6 +322,7 @@
         </capacities>
         <power>12</power>
         <cooldownTime>1</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
       </li>
       <li>
         <label>edge</label>
@@ -325,6 +331,7 @@
         </capacities>
         <power>12</power>
         <cooldownTime>1</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
       </li>
     </tools>
     <weaponTags>

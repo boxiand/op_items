@@ -151,6 +151,17 @@ level:SSS.</description>
     <comps>
       <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_ProjectileInterceptor">
+          <radius>1.5</radius>
+          <interceptAirProjectiles>true</interceptAirProjectiles>
+          <interceptGroundProjectiles>true</interceptGroundProjectiles>
+          <color>(0.6, 0.6, 0.6)</color>
+          <reactivateEffect>MortarShieldGenerator_Reactivate</reactivateEffect>
+          <activeSound>MortarShield_Ambience</activeSound>
+          <disarmedByEmpForTicks>1</disarmedByEmpForTicks>
+          <chargeIntervalTicks>100000</chargeIntervalTicks>
+          <chargeDurationTicks>1</chargeDurationTicks>
+      </li>
     </comps>
     <description>Z_防御型平台，顶级射速。
 低伤害但同样致命
@@ -189,6 +200,7 @@ level:A.</description>
       <damageDef>Bullet_TraitTox</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <stoppingPower>100</stoppingPower>
+      <armorPenetrationBase>1.</armorPenetrationBase>
       <speed>500</speed>
     </projectile>
   </ThingDef>
