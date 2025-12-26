@@ -44,6 +44,7 @@
       <stoppingPower>5</stoppingPower>
       <armorPenetrationBase>1.</armorPenetrationBase>
       <explosionRadius>0.75</explosionRadius>
+      <arcHeightFactor>1.</arcHeightFactor>
       <speed>300</speed>
     </projectile>
   </ThingDef>

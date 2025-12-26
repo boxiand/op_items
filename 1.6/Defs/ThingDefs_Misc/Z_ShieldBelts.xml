@@ -114,6 +114,7 @@
       <damageDef>BombSuper</damageDef>
       <!-- Use default damage from explosion def -->
       <explosionDelay>1</explosionDelay>
+      <arcHeightFactor>1.</arcHeightFactor>
       <!-- <flyOverhead>true</flyOverhead> -->
     </projectile>
   </ThingDef>
